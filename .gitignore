@@ -1,0 +1,63 @@
+### Spring Boot ###
+/backend/target/
+/backend/*.log
+/backend/*.pid
+/backend/.mvn/
+/backend/mvnw
+/backend/mvnw.cmd
+/backend/pom.xml.tag
+/backend/pom.xml.releaseBackup
+/backend/pom.xml.versionsBackup
+/backend/pom.xml.next
+/backend/release.properties
+/backend/dependency-reduced-pom.xml
+/backend/buildNumber.properties
+/backend/.springBeans
+/backend/.env
+
+### React-TS (frontend) ###
+/frontend/node_modules/
+/frontend/build/
+/frontend/.next/
+/frontend/out/
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# Shared files and directories to ignore
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
+.project
+.classpath
+.settings/
+*.launch
+
+# OS generated files #
+Thumbs.db
+ehthumbs.db
+*.stackdump
+.DS_Store
+.Spotlight-V100
+.Trashes
